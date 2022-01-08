@@ -1,0 +1,56 @@
+
+$maxWidth: 1440px;
+$bgColor: #4DDDE8;
+$white: #FFF;
+$black: #000;
+
+.wrapper {
+    max-width: $maxWidth;
+    margin: 0 auto;
+}
+
+.df {
+    display: flex;
+}
+
+.dfc {
+    display: flex;
+    align-items: center;
+}
+
+.dfcc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f1 {
+    flex: 1;
+}
+
+.dg {
+    display: grid;
+}
+
+.dgc {
+    display: grid;
+    align-items: center;
+}
+
+.afe {
+    align-items: flex-end;
+}
+
+.asf {
+    align-self: flex-end;
+}
+
+.button {
+    font-size: 36px;
+    color: $white;
+    background-color: $black;
+    padding: 22px 53px 15px;
+    border-radius: 54px;
+    text-transform: capitalize;
+    display: inline-block;
+}

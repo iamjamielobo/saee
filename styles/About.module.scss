@@ -1,0 +1,36 @@
+@import "./global.module.scss";
+
+.container {
+    font-family: "Acumin Pro";
+    .about-grid {
+        display: grid;
+        grid-template-columns: 50% 40%;
+        align-items: center;
+        justify-content: center;
+        grid-column-gap: 10%;
+        margin: 100px 0 150px;
+        .title-container {
+            text-align: center;
+            color: #2E2E2E;
+            .title {
+                font-size: 84px;
+                font-weight: 800;
+                text-transform: uppercase;
+            }
+            .text {
+                margin: 40px 0 15px;
+                font-size: 36px;
+            }
+        }
+    }
+    .footer-container {
+        padding-bottom: 25px;
+        .social-container {
+            display: grid;
+            grid-column-gap: 20px;
+            grid-auto-flow: column;
+            grid-auto-columns: max-content;
+            direction: rtl;
+        }
+    }
+}
