@@ -2,8 +2,41 @@
 
 body {
     .container {
+        overflow: hidden;
         font-family: "Acumin Pro";
         background-color: $bgColor;
+        .hero-container {
+            .hero-grid {
+                display: grid;
+                grid-template-columns: repeat(2, 45%);
+                grid-column-gap: 10%;
+                position: relative;
+                .hero-icon-container {
+                    display: grid;
+                    grid-template-columns: repeat(2, 48%);
+                    grid-column-gap: 4%;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    .hero-icon-text {
+                        p:first-child {
+                            font-size: 53px;
+                            font-family: "Acumin Pro";
+                            font-weight: 800;
+                            margin: 0 0 10px;
+                            text-transform: uppercase;
+                        }
+                        p:last-child {
+                            font-size: 53px;
+                            font-family: "Acumin Pro";
+                            font-weight: 100;
+                            text-transform: uppercase;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
         .right-place {
             padding: 100px 0 30px;
             &--container {
@@ -11,20 +44,21 @@ body {
                 grid-column-gap: 5%;
                 align-items: center;
                 text-align: center;
-                font-size: 36px;
+                font-size: 32px;
                 margin-top: 20px;
             }
         }
         .our-expertise {
             background-color: #EBEBEB;
-            padding: 212px 0 196px;
+            padding: 212px 0 0;
             .expertise-container {
-                max-width: 1140px;
+                max-width: 870px;
                 margin-right: auto;
                 text-align: center;
-                font-size: 36px;
-                margin-bottom: 32px;
+                font-size: 32px;
+                padding-bottom: 32px;
                 color: #1E1818;
+                background-color: #EBEBEB;
                 .expertise-text {
                     margin-bottom: 15px;
                 }
@@ -33,11 +67,52 @@ body {
         .footer-container {
             background-color: #ebebeb;
             padding-bottom: 25px;
-            .social-container {
-                display: grid;
-                grid-column-gap: 20px;
-                grid-auto-flow: column;
-                grid-auto-columns: max-content;
+            .footer-grid {
+                display: flex;
+                .social-container {
+                    display: grid;
+                    grid-column-gap: 20px;
+                    grid-auto-flow: column;
+                    grid-auto-columns: max-content;
+                    align-self: end;
+                    flex: 1;
+                }
+            }
+        }
+        .abs-doodle-1 {
+            position: relative;
+            div {
+                position: absolute;
+                right: -5px;
+                top: -330px;
+                width: 689px;
+                height: 598px;
+                opacity: 0.2;
+                z-index: 0;
+            }
+        }
+        .abs-doodle-2 {
+            position: relative;
+            div {
+                position: absolute;
+                left: 125px;
+                top: -180px;
+                width: 689px;
+                height: 598px;
+                opacity: 0.1;
+                z-index: 0;
+            }
+        }
+        .abs-doodle-3 {
+            position: relative;
+            div {
+                position: absolute;
+                left: 85px;
+                top: -316px;
+                width: 689px;
+                height: 598px;
+                opacity: 0.1;
+                z-index: 0;
             }
         }
     }
