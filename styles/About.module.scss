@@ -8,7 +8,7 @@
         align-items: center;
         justify-content: center;
         grid-column-gap: 10%;
-        margin: 100px 0 150px;
+        margin: 150px 0;
         .title-container {
             text-align: center;
             color: #2E2E2E;
@@ -18,9 +18,21 @@
                 text-transform: uppercase;
             }
             .text {
-                margin: 40px 0 15px;
+                margin: 25px 0 15px;
                 font-size: 32px;
             }
+        }
+    }
+    .abs-doodle-1 {
+        position: relative;
+        div {
+            position: absolute;
+            left: -168px;
+            top: -100px;
+            width: 1102px;
+            height: 956px;
+            opacity: 0.09;
+            z-index: 0;
         }
     }
     .footer-container {

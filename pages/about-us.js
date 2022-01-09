@@ -18,6 +18,9 @@ export default function About() {
 				<Header />
 				<div className={styles['about-container'] }>
 					<div className={global['wrapper']}>
+                        <div className={styles['abs-doodle-1']}>
+                            <div><Image src="/home_hero_doodle.png" width='1102' height='956' objectFit='contain' /></div>
+                        </div>
                         <div className={styles['about-grid']}>
                             <div className={styles['title-container']}>
                                 <div className={styles['title']}>About Us</div>
