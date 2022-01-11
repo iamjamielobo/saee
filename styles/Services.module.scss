@@ -2,13 +2,16 @@
 
 .services-container {
     font-family: "Acumin Pro";
+    .services-title-container {
+        margin: -200px 0;
+    }
     .services-header-grid {
         display: grid;
-        grid-template-columns: 60% 30%;
+        grid-template-columns: 70% 30%;
         align-items: center;
         justify-content: center;
-        grid-column-gap: 10%;
         margin: 0;
+        z-index: -1;
         .title-container {
             text-align: center;
             color: #2E2E2E;

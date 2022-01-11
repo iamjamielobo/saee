@@ -4,6 +4,10 @@ $bgColor: #4DDDE8;
 $white: #FFF;
 $black: #000;
 
+.z1 {
+    z-index: 1;
+}
+
 .wrapper {
     max-width: $maxWidth;
     margin: 0 auto;

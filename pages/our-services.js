@@ -17,16 +17,13 @@ export default function Services() {
 			<main>
 				<Header />
 				<div className={styles['services-container'] }>
-					<div className={global['wrapper']}>
-                        {/* <div className={styles['abs-doodle-1']}>
-                            <div><Image src="/home_hero_doodle.png" width='1102' height='956' objectFit='contain' /></div>
-                        </div> */}
+					<div className={`${global['wrapper']} ${styles['services-title-container']}`}>
                         <div className={styles['services-header-grid']}>
                             <div className={styles['comp']}>
-                                <Image src="/services_comp.png" width="100%" height="100%" layout="responsive" objectFit="contain" />
+                                <Image src="/services/services_comp1.png" width="100%" height="100%" layout="responsive" objectFit="contain" />
                             </div>
                             <div className={styles['text']}>
-                                <Image src="/about.png" width="100%" height="100%" layout="responsive" objectFit="contain" />
+                                <Image src="/services/services_title.png" width="100%" height="100%" layout="responsive" objectFit="contain" />
                             </div>
                         </div>
                     </div>
