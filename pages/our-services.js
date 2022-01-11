@@ -20,7 +20,7 @@ export default function Services() {
 					<div className={`${global['wrapper']} ${styles['services-title-container']}`}>
                         <div className={styles['services-header-grid']}>
                             <div className={styles['comp']}>
-                                <Image src="/services/services_comp1.png" width="100%" height="100%" layout="responsive" objectFit="contain" />
+                                <Image src="/services/services_comp1.png" width="100%" height="100%" layout="responsive" objectFit="contain" priority />
                             </div>
                             <div className={styles['text']}>
                                 <Image src="/services/services_title.png" width="100%" height="100%" layout="responsive" objectFit="contain" />
