@@ -1,0 +1,55 @@
+@import "./global.module.scss";
+
+.contact-container {
+    font-family: "Acumin Pro";
+    .contact-header-grid {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        align-items: end;
+        justify-content: center;
+        margin: 0;
+        z-index: -1;
+        text-align: center;
+        padding: 125px 0 0px;
+        p {
+            margin: 0;
+        }
+        .contact-header-title {
+            font-size: 60px;
+            font-weight: 800;
+            margin-bottom: 35px;
+            text-transform: uppercase;
+            letter-spacing: 1.2;
+        }
+        .contact-header-sub-title {
+            font-size: 36px;
+            font-weight: 800;
+            color: #161414;
+            text-transform: uppercase;
+            margin-top: 25px;
+        }
+        .contact-header-text {
+            font-size: 30px;
+            color: #161414;
+        }
+        .right {
+            margin-bottom: -15px;
+        }
+        .last-child {
+            margin-bottom: 30px;
+        }
+    }
+    .contact-form-section {
+        background-color: $bgColor;
+        padding-top: 100px;
+    }
+    .footer-container {
+        padding-bottom: 25px;
+        .social-container {
+            display: grid;
+            grid-column-gap: 20px;
+            grid-auto-flow: column;
+            grid-auto-columns: max-content;
+        }
+    }
+}
