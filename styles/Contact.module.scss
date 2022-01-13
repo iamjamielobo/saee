@@ -10,19 +10,23 @@
         justify-content: center;
         margin: 0;
         z-index: -1;
-        text-align: center;
+        // text-align: center;
         overflow: hidden;
         p {
             margin: 0;
         }
         .left {
             position: relative;
-            padding: 125px 0 0px;
+            padding: 100px 0 0px 30px;
+            width: 100%;
+            height: 100%;
             .hero-doodle {
                 position: absolute;
                 top: 0;
                 left: 0;
                 opacity: 0.2;
+                width: 100%;
+                height: 100%;
             }
         }
         .contact-header-title {

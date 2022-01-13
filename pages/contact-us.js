@@ -32,9 +32,15 @@ export default class Contact extends Component {
 
         console.log('===> this.form.current', this.form.current)
 
-        emailjs.sendForm('service_011qhag', 'template_8akb9so', this.form.current, 'user_d5YOhq2lPZOSZcNXgB5vb')
+        emailjs.sendForm('service_j8cxt6b', 'template_0h9co4p', this.form.current, 'user_FbDv53Orxp3pdUmdbxjey')
             .then((result) => {
-                console.log('===>', result.text);
+                this.setState({
+                    name: '',
+                    email: '',
+                    phone: '',
+                    company: '',
+                    request: ''
+                })
             }, (error) => {
                 console.log('===>', error.text);
             });
@@ -58,7 +64,7 @@ export default class Contact extends Component {
                         <div className={`${global['wrapper']}`}>
                             <div className={styles['contact-header-grid']}>
                                 <div className={styles['left']}>
-                                    <div className={styles['hero-doodle']}><Image src="/home_hero_doodle.png" width='1000' height='598' objectFit='cover' /></div>
+                                    <div className={styles['hero-doodle']}><Image src="/home_hero_doodle.png" layout='fill' objectFit='contain' /></div>
                                     <p className={styles['contact-header-title']}>Contact Us</p>
                                     <div>
                                         <p className={styles['contact-header-sub-title']}>Address:</p>
