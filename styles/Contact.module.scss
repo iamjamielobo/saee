@@ -4,15 +4,26 @@
     font-family: "Acumin Pro";
     .contact-header-grid {
         display: grid;
-        grid-template-columns: 70% 30%;
+        grid-template-columns: 60% 35%;
+        grid-column-gap: 5%;
         align-items: end;
         justify-content: center;
         margin: 0;
         z-index: -1;
         text-align: center;
-        padding: 125px 0 0px;
+        overflow: hidden;
         p {
             margin: 0;
+        }
+        .left {
+            position: relative;
+            padding: 125px 0 0px;
+            .hero-doodle {
+                position: absolute;
+                top: 0;
+                left: 0;
+                opacity: 0.2;
+            }
         }
         .contact-header-title {
             font-size: 60px;
@@ -42,6 +53,35 @@
     .contact-form-section {
         background-color: $bgColor;
         padding-top: 100px;
+        .wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            .contact-form-section {
+                display: grid;
+                grid-template-columns: repeat(2, 45%);
+                grid-column-gap: 10%;
+                margin-bottom: 200px;
+                .contact-form-block {
+                    margin-bottom: 50px;
+                    input, textarea {
+                        width: 100%;
+                        font-size: 24px;
+                        padding: 20px 20px 15px 20px;
+                    }
+                    .contact-form-submit {
+                        padding: 20px 50px 15px 50px;
+                        border-radius: 80px;
+                        background-color: $black;
+                        color: $white;
+                        text-transform: uppercase;
+                        cursor: pointer;
+                        width: auto;
+                        font-size: 36px;
+                    }
+                }
+            }
+        }
     }
     .footer-container {
         padding-bottom: 25px;

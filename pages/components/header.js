@@ -11,9 +11,6 @@ export default function Header() {
 	const router = useRouter()
 	const { asPath } = router
 
-	console.log('===> router.asPath', router.asPath)
-	console.log('===> asPath condition', asPath === '/')
-
 	return (
 		<div className={styles['header-container']}>
 			<div className={`${global['wrapper']} ${global.dfc} ${ global['z1'] }`}>
