@@ -11,11 +11,11 @@ export default class Contact extends Component {
     form = createRef()
 
     state = {
-        name: 'hello',
-        email: 'hello',
-        phone: 'hello',
-        company: 'hello',
-        request: 'hello'
+        name: '',
+        email: '',
+        phone: '',
+        company: '',
+        request: ''
     }
 
     changeInputState = (key, value) => {
