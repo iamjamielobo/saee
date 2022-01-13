@@ -1,48 +1,48 @@
-// @import "./global.module.scss";
+@import "./global.module.scss";
 
-// .container {
-//     font-family: "Acumin Pro";
-//     .about-grid {
-//         display: grid;
-//         grid-template-columns: 50% 40%;
-//         align-items: center;
-//         justify-content: center;
-//         grid-column-gap: 10%;
-//         margin: 150px 0;
-//         .title-container {
-//             text-align: center;
-//             color: #2E2E2E;
-//             .title {
-//                 font-size: 84px;
-//                 font-weight: 800;
-//                 text-transform: uppercase;
-//             }
-//             .text {
-//                 margin: 25px 0 15px;
-//                 font-size: 32px;
-//             }
-//         }
-//     }
-//     .abs-doodle-1 {
-//         position: relative;
-//         div {
-//             position: absolute;
-//             left: -168px;
-//             top: -100px;
-//             width: 1102px;
-//             height: 956px;
-//             opacity: 0.09;
-//             z-index: 0;
-//         }
-//     }
-//     .footer-container {
-//         padding-bottom: 25px;
-//         .social-container {
-//             display: grid;
-//             grid-column-gap: 20px;
-//             grid-auto-flow: column;
-//             grid-auto-columns: max-content;
-//             direction: rtl;
-//         }
-//     }
-// }
+.container {
+    font-family: "Acumin Pro";
+    .about-grid {
+        display: grid;
+        grid-template-columns: 50% 40%;
+        align-items: center;
+        justify-content: center;
+        grid-column-gap: 10%;
+        margin: 150px 0;
+        .title-container {
+            text-align: center;
+            color: #2E2E2E;
+            .title {
+                font-size: 84px;
+                font-weight: 800;
+                text-transform: uppercase;
+            }
+            .text {
+                margin: 25px 0 15px;
+                font-size: 32px;
+            }
+        }
+    }
+    .abs-doodle-1 {
+        position: relative;
+        div {
+            position: absolute;
+            left: -168px;
+            top: -100px;
+            width: 1102px;
+            height: 956px;
+            opacity: 0.09;
+            z-index: 0;
+        }
+    }
+    .footer-container {
+        padding-bottom: 25px;
+        .social-container {
+            display: grid;
+            grid-column-gap: 20px;
+            grid-auto-flow: column;
+            grid-auto-columns: max-content;
+            direction: rtl;
+        }
+    }
+}
