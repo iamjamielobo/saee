@@ -15,7 +15,7 @@ export default function Header() {
 		<div className={styles['header-container']}>
 			<div className={`${global['wrapper']} ${global.dfc} ${ global['z1'] }`}>
 				<div className={ styles['logo-container'] }>
-					<Image src="/logo.png" width="378" height="102" />
+					<Link href='/'><a><Image src="/logo.png" width="378" height="102" /></a></Link>
 				</div>
 				<div className={`${ styles['nav-list'] } ${ global['f1'] }`}>
 					<ul>
