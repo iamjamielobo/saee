@@ -4,7 +4,7 @@
     font-family: "Acumin Pro";
     .about-grid {
         display: grid;
-        grid-template-columns: 40% 60%;
+        grid-template-columns: 43% 57%;
         // align-items: center;
         justify-content: center;
         margin: 100px 0 80px;
@@ -26,10 +26,11 @@
     }
     .abs-doodle-1 {
         position: relative;
+        z-index: -1;
         div {
             position: absolute;
-            left: -168px;
-            top: -100px;
+            left: -77px;
+            top: 15px;
             width: 1102px;
             height: 956px;
             opacity: 0.09;
