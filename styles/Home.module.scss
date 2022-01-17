@@ -11,6 +11,10 @@ body {
                 grid-template-columns: repeat(2, 47%);
                 grid-column-gap: 6%;
                 position: relative;
+                // @media screen and (max-width: 1300px) {
+                //     grid-template-columns: 40% 55%;
+                //     grid-column-gap: 5%;
+                // }
                 .hero-icon-container {
                     display: grid;
                     grid-template-columns: repeat(2, 48%);
@@ -18,6 +22,10 @@ body {
                     align-items: center;
                     justify-content: center;
                     text-align: center;
+                    @media screen and (max-width: 1300px) {
+                        grid-template-columns: 45% 50%;
+                        grid-column-gap: 5%;
+                    }
                     .hero-icon-text {
                         p:first-child {
                             font-family: 'Acumin Pro';
@@ -25,11 +33,17 @@ body {
                             font-size: 53px;
                             margin: 0 0 10px;
                             text-transform: uppercase;
+                            @media screen and (max-width: 1300px) {
+                                font-size: 42px;
+                            }
                         }
                         p:last-child {
                             font-size: 53px;
                             text-transform: uppercase;
                             margin: 0;
+                            @media screen and (max-width: 1300px) {
+                                font-size: 42px;
+                            }
                         }
                     }
                 }
@@ -79,11 +93,11 @@ body {
         }
         .abs-doodle-1 {
             position: relative;
-            z-index: -1;
+            // z-index: -1;
             div {
                 position: absolute;
                 right: -5px;
-                top: -330px;
+                top: -430px;
                 width: 689px;
                 height: 598px;
                 opacity: 0.2;
@@ -92,7 +106,7 @@ body {
         }
         .abs-doodle-2 {
             position: relative;
-            z-index: -1;
+            // z-index: -1;
             div {
                 position: absolute;
                 left: 125px;
@@ -105,7 +119,7 @@ body {
         }
         .abs-doodle-3 {
             position: relative;
-            z-index: -1;
+            // z-index: -1;
             div {
                 position: absolute;
                 left: 85px;

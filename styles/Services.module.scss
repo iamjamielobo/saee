@@ -4,6 +4,12 @@
     font-family: "Acumin Pro";
     .services-title-container {
         margin: -200px 0;
+        @media screen and (max-width: 1440px) {
+            margin: -100px 0 -200px;
+        }
+        @media screen and (max-width: 1300px) {
+            margin: -100px 0 -150px;
+        }
     }
     .services-header-grid {
         display: grid;
