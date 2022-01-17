@@ -93,7 +93,7 @@ body {
         }
         .abs-doodle-1 {
             position: relative;
-            // z-index: -1;
+            z-index: 0;
             div {
                 position: absolute;
                 right: -5px;
@@ -101,12 +101,12 @@ body {
                 width: 689px;
                 height: 598px;
                 opacity: 0.2;
-                z-index: 0;
+                z-index: -1;
             }
         }
         .abs-doodle-2 {
             position: relative;
-            // z-index: -1;
+            z-index: 0;
             div {
                 position: absolute;
                 left: 125px;
@@ -114,12 +114,12 @@ body {
                 width: 689px;
                 height: 598px;
                 opacity: 0.1;
-                z-index: 0;
+                z-index: -1;
             }
         }
         .abs-doodle-3 {
             position: relative;
-            // z-index: -1;
+            z-index: 0;
             div {
                 position: absolute;
                 left: 85px;
@@ -127,7 +127,7 @@ body {
                 width: 689px;
                 height: 598px;
                 opacity: 0.1;
-                z-index: 0;
+                z-index: -1;
             }
         }
     }
