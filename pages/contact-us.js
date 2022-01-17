@@ -68,15 +68,15 @@ export default class Contact extends Component {
                                     <p className={styles['contact-header-title']}>Contact Us</p>
                                     <div>
                                         <p className={styles['contact-header-sub-title']}>Address:</p>
-                                        <p className={styles['contact-header-text']}>Vile Parle, Mumbai, India - 400057 <br /> | Abu Dhabi, UAE</p>
+                                        <p className={styles['contact-header-text']}>Vile Parle, Mumbai, India - 400057<br />Abu Dhabi, UAE</p>
                                     </div>
                                     <div>
                                         <p className={styles['contact-header-sub-title']}>Website:</p>
-                                        <p className={styles['contact-header-text']}>www.millennialaces.com </p>
+                                        <p className={styles['contact-header-text']}>www.millennialaces.com</p>
                                     </div>
                                     <div className={styles['last-child']}>
                                         <p className={styles['contact-header-sub-title']}>Mail us at :</p>
-                                        <p className={styles['contact-header-text']}>info@millennialaces.com  <br />/ saeejoshi@icloud.com </p>
+                                        <p className={styles['contact-header-text']}>info@millennialaces.com<br />saeejoshi@icloud.com </p>
                                     </div>
                                 </div>
                                 <div className={styles['right']}>
