@@ -12,6 +12,14 @@ $black: #000;
     max-width: $maxWidth;
     margin: 0 auto;
     position: relative;
+    @media screen and (max-width: 1550px) {
+        max-width: 100%;
+        padding: 0 80px;
+    }
+    @media screen and (max-width: 1200px) {
+        max-width: 100%;
+        padding: 0 50px;
+    }
 }
 
 .df {
@@ -58,4 +66,5 @@ $black: #000;
     border-radius: 54px;
     text-transform: capitalize;
     display: inline-block;
+    cursor: pointer;
 }

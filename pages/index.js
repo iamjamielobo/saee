@@ -40,11 +40,11 @@ export default function Home() {
 								<div className={`${styles['right-place--right']}`}>
 									<p>Then you’ve come to the right place! At Millennial Aces, we build memorable brand experiences through strategies that ensure you ace, especially in the long.</p>
 									<div>
-										<span className={global['button']}>
-											<Link href="/blog/hello-world">
-												<a>Read More</a>
-											</Link>
-										</span>
+										<Link href="/our-services">
+											<span className={global['button']}>
+												Read More
+											</span>
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -63,11 +63,11 @@ export default function Home() {
 									Our expertise lies in the wide spectrum of digital, design, content, and copywriting, wherein we integrate creativity with digital technology to help you get the results you deserve.
 								</div>
 								<div>
-									<span className={global['button']}>
-										<Link href="/blog/hello-world">
-											<a>Read More</a>
-										</Link>
-									</span>
+									<Link href="/our-services">
+										<span className={global['button']}>
+											Read More
+										</span>
+									</Link>
 								</div>
 							</div>
 						</div>

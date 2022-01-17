@@ -3,7 +3,7 @@
 body {
     .container {
         overflow: hidden;
-        font-family: "Acumin Pro";
+        font-family: 'Acumin Pro';
         background-color: $bgColor;
         .hero-container {
             .hero-grid {
@@ -20,16 +20,14 @@ body {
                     text-align: center;
                     .hero-icon-text {
                         p:first-child {
+                            font-family: 'Acumin Pro';
+                            font-weight: bold;
                             font-size: 53px;
-                            font-family: "Acumin Pro";
-                            font-weight: 800;
                             margin: 0 0 10px;
                             text-transform: uppercase;
                         }
                         p:last-child {
                             font-size: 53px;
-                            font-family: "Acumin Pro";
-                            font-weight: 100;
                             text-transform: uppercase;
                             margin: 0;
                         }
@@ -81,6 +79,7 @@ body {
         }
         .abs-doodle-1 {
             position: relative;
+            z-index: -1;
             div {
                 position: absolute;
                 right: -5px;
@@ -93,6 +92,7 @@ body {
         }
         .abs-doodle-2 {
             position: relative;
+            z-index: -1;
             div {
                 position: absolute;
                 left: 125px;
@@ -105,6 +105,7 @@ body {
         }
         .abs-doodle-3 {
             position: relative;
+            z-index: -1;
             div {
                 position: absolute;
                 left: 85px;

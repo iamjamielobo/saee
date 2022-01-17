@@ -3,41 +3,60 @@
 .header-container {
     font-family: "Acumin Pro";
     z-index: 100;
-    .nav-list {
-        z-index: 100;
-        ul {
-            list-style: none;
-            margin: 0;
-            padding: 50px 0;
-            display: flex;
-            flex: 0;
-            justify-content: flex-end;
-            li {
-                text-transform: uppercase;
-                margin-right: 20px;
-                font-size: 15px;
-                display: flex;align-items: center;
-                span {
-                    cursor: pointer;
-                    padding: 9px 20px 5px;
-                }
-                &:last-child {
-                    margin-right: 0;
-                }
-                &:hover {
-                    span {
-                        padding: 9px 20px 5px;
-                        background: $black;
-                        color: $white;
-                        border-radius: 5px;
+    .header-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        align-items: center;
+        .logo-container {
+            width: 378px;
+            height: 102px;
+            position: relative;
+            @media screen and (max-width: 1200px) {
+                width: 265px;
+                height: 71px;
+            }
+        }
+        .nav-list {
+            z-index: 100;
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 50px 0;
+                display: flex;
+                flex: 0;
+                justify-content: flex-end;
+                li {
+                    text-transform: uppercase;
+                    margin-right: 20px;
+                    font-size: 15px;
+                    display: flex;
+                    align-items: center;
+                    @media screen and (max-width: 1200px) {
+                        margin-right: 10px;
                     }
-                }
-                &._active {
                     span {
+                        cursor: pointer;
                         padding: 9px 20px 5px;
-                        background: $black;
-                        color: $white;
-                        border-radius: 5px;
+                    }
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    &:hover {
+                        span {
+                            padding: 9px 20px 5px;
+                            background: $black;
+                            color: $white;
+                            border-radius: 5px;
+                        }
+                    }
+                    &._active {
+                        span {
+                            padding: 9px 20px 5px;
+                            background: $black;
+                            color: $white;
+                            border-radius: 5px;
+                        }
                     }
                 }
             }

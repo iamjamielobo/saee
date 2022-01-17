@@ -26,11 +26,11 @@ export default function About() {
                                 <div className={styles['title']}>About Us</div>
                                 <div className={styles['text']}>At Millennial Aces, we are a small yet mighty bunch of digitally savvy, passionate millennials who love technology, creativity</div>
                                 <div className={styles['button-container']}>
-									<span className={global['button']}>
-										<Link href="/blog/hello-world">
-											<a>Read More</a>
-										</Link>
-									</span>
+                                    <Link href="/our-services">
+                                        <span className={global['button']}>
+                                            Read More
+                                        </span>
+                                    </Link>
                                 </div>
                             </div>
                             <div className={styles['img']}>

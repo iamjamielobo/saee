@@ -85,7 +85,7 @@ export default class Contact extends Component {
                             </div>
                         </div>
                         <div className={styles['contact-form-section'] }>
-                            <div className={styles['wrapper']}>
+                            <div className={`${styles['wrapper']} ${global['wrapper']}`}>
                                 <form ref={this.form} onSubmit={ this.submitValues } className={styles['contact-form-section'] }>
                                     <div className={styles['contact-form-block'] }>
                                         <input name="input_name"  onChange={ e => this.changeInputState('name', e.currentTarget.value) } type={'text'} placeholder='NAME' value={ name } />
