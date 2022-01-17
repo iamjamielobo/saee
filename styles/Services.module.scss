@@ -1,7 +1,7 @@
 @import "./global.module.scss";
 
 .services-container {
-    font-family: "Acumin Pro";
+    font-family: $ff;
     .services-title-container {
         margin: -200px 0;
         @media screen and (max-width: 1440px) {
@@ -23,7 +23,7 @@
             color: #2E2E2E;
             .title {
                 font-size: 84px;
-                font-family: 'Acumin Pro';
+                font-family: $ff;
                 font-weight: bold;
                 text-transform: uppercase;
             }

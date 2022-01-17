@@ -3,7 +3,7 @@
 body {
     .container {
         overflow: hidden;
-        font-family: 'Acumin Pro';
+        font-family: $ff;
         background-color: $bgColor;
         .hero-container {
             .hero-grid {
@@ -28,7 +28,7 @@ body {
                     }
                     .hero-icon-text {
                         p:first-child {
-                            font-family: 'Acumin Pro';
+                            font-family: $ff;
                             font-weight: bold;
                             font-size: 53px;
                             margin: 0 0 10px;

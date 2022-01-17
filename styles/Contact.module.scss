@@ -1,7 +1,7 @@
 @import "./global.module.scss";
 
 .contact-container {
-    font-family: "Acumin Pro";
+    font-family: $ff;
     .contact-header-grid {
         display: grid;
         grid-template-columns: 60% 35%;
@@ -31,7 +31,7 @@
         }
         .contact-header-title {
             font-size: 60px;
-            font-family: 'Acumin Pro';
+            font-family: $ff;
             font-weight: bold;
             margin-bottom: 35px;
             text-transform: uppercase;
@@ -39,7 +39,7 @@
         }
         .contact-header-sub-title {
             font-size: 36px;
-            font-family: 'Acumin Pro';
+            font-family: $ff;
             font-weight: bold;
             color: #161414;
             text-transform: uppercase;
