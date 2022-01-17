@@ -4,7 +4,7 @@
     font-family: $ff;
     .contact-header-grid {
         display: grid;
-        grid-template-columns: 60% 35%;
+        grid-template-columns: 55% 40%;
         grid-column-gap: 5%;
         align-items: end;
         justify-content: center;
@@ -35,15 +35,15 @@
             font-weight: bold;
             margin-bottom: 35px;
             text-transform: uppercase;
-            letter-spacing: 1.2;
+            letter-spacing: 1.1;
         }
         .contact-header-sub-title {
-            font-size: 36px;
+            font-size: 28px;
             font-family: $ff;
             font-weight: bold;
             color: #161414;
             text-transform: uppercase;
-            margin-top: 25px;
+            margin: 25px 0 5px;
         }
         .contact-header-text {
             font-size: 30px;
@@ -76,14 +76,14 @@
                         padding: 20px 20px 15px 20px;
                     }
                     .contact-form-submit {
-                        padding: 20px 50px 15px 50px;
+                        padding: 12px 40px;
                         border-radius: 80px;
                         background-color: $black;
                         color: $white;
                         text-transform: uppercase;
                         cursor: pointer;
                         width: auto;
-                        font-size: 36px;
+                        font-size: 28px;
                     }
                 }
             }

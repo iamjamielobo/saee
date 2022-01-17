@@ -3,7 +3,7 @@
 .services-container {
     font-family: $ff;
     .services-title-container {
-        margin: -200px 0;
+        margin: -223px 0;
         @media screen and (max-width: 1440px) {
             margin: -100px 0 -200px;
         }
@@ -13,11 +13,14 @@
     }
     .services-header-grid {
         display: grid;
-        grid-template-columns: 70% 30%;
+        grid-template-columns: 75% 25%;
         align-items: center;
         justify-content: center;
         margin: 0;
         z-index: -1;
+        @media screen and (max-width: 1300px) {
+            grid-template-columns: 67% 33%;
+        }
         .title-container {
             text-align: center;
             color: #2E2E2E;
@@ -40,8 +43,9 @@
         background-image: url('../public/services/doodle.png');
         .services-grid {
             display: grid;
-            grid-template-columns: repeat(5, 18%);
-            grid-column-gap: 2.5%;
+            grid-template-columns: repeat(3, 22%);
+            grid-column-gap: 17%;
+            grid-row-gap: 50px;
             align-items: center;
             grid-column: center;
             padding: 100px 0 150px;
