@@ -4,14 +4,14 @@
     font-family: "Acumin Pro";
     .about-grid {
         display: grid;
-        grid-template-columns: 50% 40%;
-        align-items: center;
+        grid-template-columns: 40% 60%;
+        // align-items: center;
         justify-content: center;
-        grid-column-gap: 10%;
-        margin: 150px 0;
+        margin: 100px 0 80px;
         .title-container {
             text-align: center;
             color: #2E2E2E;
+            margin-top: 180px;
             .title {
                 font-size: 84px;
                 font-family: 'Acumin Pro';
