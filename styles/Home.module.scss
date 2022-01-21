@@ -22,17 +22,16 @@ body {
                     align-items: center;
                     justify-content: center;
                     text-align: center;
-                    @media screen and (max-width: 1300px) {
-                        grid-template-columns: 45% 50%;
-                        grid-column-gap: 5%;
-                    }
+                    // @media screen and (max-width: 1300px) {
+                    //     grid-template-columns: 45% 50%;
+                    //     grid-column-gap: 5%;
+                    // }
                     .hero-icon-text {
                         p:first-child {
                             font-family: $ff;
                             font-weight: bold;
-                            font-size: 32px;
+                            font-size: 24px;
                             line-height: 1.5;
-                            text-transform: uppercase;
                         }
                     }
                 }
