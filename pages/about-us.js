@@ -25,18 +25,26 @@ export default function About() {
                             <div className={styles['title-container']}>
                                 <div className={styles['title']}>About Us</div>
                                 <div className={styles['text']}>At Millennial Aces, we are a small yet mighty bunch of digitally savvy, passionate millennials who love technology, creativity</div>
-                                <div className={styles['button-container']}>
+                                {/* <div className={styles['button-container']}>
                                     <Link href="/our-services">
                                         <span className={global['button']}>
                                             Read More
                                         </span>
                                     </Link>
-                                </div>
+                                </div> */}
                             </div>
                             <div className={styles['img']}>
                                 <Image src="/about.png" width="100%" height="100%" layout="responsive" objectFit="contain" />
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className={ styles['about-text-container'] }>
+					<div className={global['wrapper']}>
+                        <p>What happens when you combine Content, Social media, Research and Strategy in the world of Digital?</p>
+                        <p className={ global.bold }>WE CALL IT GROWTH!</p>
+                        <p>At <span className={ global.bold }>Millennial Aces</span>, we are a small yet mighty bunch of digitally savvy, passionate millennials who love technology, creativity and customer service in equal measure.</p>
+                        <p>We are dedicated to help provide solutions with optimum value to all your business problems. We believe that for truly real, impressive, and outstanding work, there needs to be an equally real, passionate, and driven workforce to be reckoned with. Which is why, we treat your business as our own, your brands as our own and take care of it ensuring it gets the best returns in every way. We confront our dynamic world with vigour, we respect the shades that make each of us unique, and we are connected by an incessant drive toward excellence.</p>
                     </div>
                 </div>
                 <footer>

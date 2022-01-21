@@ -22,10 +22,10 @@ export default function Home() {
 							<div className={styles['hero-grid']}>
 								<div><Image src="/home_hero_doodle.png" width='689' height='598' objectFit='contain' /></div>
 								<div className={styles['hero-icon-container']}>
-									<div><Image src="/home_clubs.png" width='360' height='400' objectFit='contain' /></div>
+									{/* <div><Image src="/home_clubs.png" width='360' height='400' objectFit='contain' /></div> */}
 									<div className={styles['hero-icon-text']}>
-										<p>Marketing</p>
-										<p>Ventures</p>
+										{/* <p>Marketing</p> */}
+										<p>We make sure your brand aces through every Millennial!</p>
 									</div>
 								</div>
 							</div>
