@@ -30,12 +30,18 @@ export default function Services() {
                     <div className={styles['our-services'] }>
                         <div className={global['wrapper']}>
                             <div className={styles['services-grid'] }>
-                                <Image src="/services/1.png" width="100%" height="100%" layout="responsive" objectFit="contain" />
-                                <Image src="/services/2.png" width="100%" height="100%" layout="responsive" objectFit="contain" />
-                                <Image src="/services/3.png" width="100%" height="100%" layout="responsive" objectFit="contain" />
-                                <Image src="/services/4.png" width="100%" height="100%" layout="responsive" objectFit="contain" />
-                                <Image src="/services/5.png" width="100%" height="100%" layout="responsive" objectFit="contain" />
-                                <Image src="/services/6.png" width="100%" height="100%" layout="responsive" objectFit="contain" />
+                                <div className={ styles['img-container'] }><Image src="/services/1.png" width="302" height="316" /></div>
+                                <div className={ styles['text-container'] }>Our social media services help you easily navigate the complex social media space by managing your social media pages at scale. We research and identify the right platform that can produce the greatest ROI for your company.</div>
+                                <div className={ styles['img-container'] }><Image src="/services/2.png" width="302" height="316" /></div>
+                                <div className={ styles['text-container'] }>We provide you a cost-effective solution to increase rankings and traffic to your website through search engines. Our SEO Services can help your business grow by focusing on Better SERP Ranking, Web Traffic and Quantifiable ROI.</div>
+                                <div className={ styles['img-container'] }><Image src="/services/3.png" width="302" height="316" /></div>
+                                <div className={ styles['text-container'] }>With the finest analytical skills, Our SEM/PPC Services helps your business grow, generate high-quality traffic, increase conversions and customers with the most effective search engine marketing tools and strategies.</div>
+                                <div className={ styles['img-container'] }><Image src="/services/4.png" width="302" height="316" /></div>
+                                <div className={ styles['text-container'] }>With our Google Analytics Services, whether you’re looking to increase brand recognition, customer engagements or conversions, we provide a solution that’s perfect for your business.</div>
+                                <div className={ styles['img-container'] }><Image src="/services/5.png" width="302" height="316" /></div>
+                                <div className={ styles['text-container'] }>Get more traffic and increase revenue with a customized email marketing strategy to engage your customers. With our creative designs, we help you increase revenue and build engagement.</div>
+                                <div className={ styles['img-container'] }><Image src="/services/6.png" width="302" height="316" /></div>
+                                <div className={ styles['text-container'] }>We are here for all your creative design needs. Our talented and skilled designers are here to serve all your creative needs for social media, Paid Ads for SEM, SEO and any other services while tending to your specific brand needs.</div>
                             </div>
                         </div>
                         {/* <div className={styles['abs-doodle-1']}>

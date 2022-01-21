@@ -63,11 +63,19 @@
             // max-width: 1200px;
             // margin: 0 auto;
             // position: relative;
-            .contact-form-section {
+            .form-title {
+                font-size: 32px;
+                font-family: $ff;
+                font-weight: bold;
+                margin-bottom: 40px;
+                text-transform: uppercase;
+                letter-spacing: 1.1;
+            }
+            .contact-form-wrapper {
                 display: grid;
                 grid-template-columns: repeat(2, 45%);
                 grid-column-gap: 10%;
-                margin-bottom: 200px;
+                margin: 0px 0 50px;
                 .contact-form-block {
                     margin-bottom: 50px;
                     input, textarea {

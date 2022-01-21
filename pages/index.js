@@ -38,7 +38,7 @@ export default function Home() {
 									<Image src="/home_right_place.png" width='689' height='598' layout='responsive' />
 								</div>
 								<div className={`${styles['right-place--right']}`}>
-									<p>Then you’ve come to the right place! At Millennial Aces, we build memorable brand experiences through strategies that ensure you ace, especially in the long.</p>
+									<p>Then you’ve come to the right place! At Millennial Aces, we build memorable brand experiences through strategies that ensure you ace, especially in the long run.</p>
 									<div>
 										<Link href="/our-services">
 											<span className={global['button']}>
