@@ -12,8 +12,8 @@ export default function Header() {
 	const { asPath } = router
 
 	return (
-		<div className={styles['header-container']}>
-			<div className={`${global['wrapper']} ${global.dfc} ${ global['z1'] }`}>
+		<header className={styles['header-container']}>
+			<div className={`${global['wrapper']} ${global.dfc} ${ global['z1'] } ${ styles['desktop-nav'] }`}>
 				<div className={styles['header-wrapper']}>
 					<div className={ styles['logo-container'] }>
 						<Link href='/'><a><Image src="/logo.png"  layout='fill' objectFit='contain' /></a></Link>
@@ -28,6 +28,30 @@ export default function Header() {
 					</div>
 				</div>
 			</div>
-		</div>
+			<div className={`${ styles['mob-nav'] }`}>
+				<div className={`${ styles['mob-nav-wrapper'] }`}>
+					<div className={`${ styles['navbar'] }`}>
+						<div className={`${ styles['container'] } ${ styles['nav-container'] }`}>
+							<span className={ styles['logo-responsive'] }><Link href='/'><a><Image src="/logo.png"  layout='fill' objectFit='contain' /></a></Link></span>
+							<input className={`${ styles['checkbox'] }`} type="checkbox" name="" id="" />
+							<div className={`${ styles['hamburger-lines'] }`}>
+							<span className={`${ styles['line'] } ${ styles['line1'] }`}></span>
+							<span className={`${ styles['line'] } ${ styles['line2'] }`}></span>
+							<span className={`${ styles['line'] } ${ styles['line3'] }`}></span>
+						</div>
+						<div className={`${ styles['menu-items'] }`}>
+							<span className={ styles['logo-responsive-menu'] }><Link href='/'><a><Image src="/logo.png"  layout='fill' objectFit='contain' /></a></Link></span>
+							<ul>
+								<li className={ asPath === '/' ? styles['_active'] : '' }><Link href='/'><span >Home</span></Link></li>
+								<li className={ asPath === '/about-us' ? styles['_active'] : '' }><Link href='/about-us'><span >About Us</span></Link></li>
+								<li className={ asPath === '/our-services' ? styles['_active'] : '' }><Link href='/our-services'><span >Our Services</span></Link></li>
+								<li className={ asPath === '/contact-us' ? styles['_active'] : '' }><Link href='/contact-us'><span >Contact Us</span></Link></li>
+							</ul>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
 	)
 }

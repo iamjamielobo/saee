@@ -2,25 +2,50 @@
 
 .container {
     font-family: $ff;
+    overflow: hidden;
+    .about-container {
+        position: relative;
+    }
     .about-grid {
         display: grid;
         grid-template-columns: 43% 57%;
         // align-items: center;
         justify-content: center;
         margin: 100px 0 80px;
+        @media screen and (max-width: 1024px) {
+            grid-template-columns: 1fr;
+            margin: 40px 0;
+        }
         .title-container {
             text-align: center;
             color: #2E2E2E;
             margin-top: 180px;
+            @media screen and (max-width: 1024px) {
+                margin-top: 20px;
+            }
             .title {
                 font-size: 60px;
                 font-family: $ff;
                 font-weight: bold;
                 text-transform: uppercase;
+                @media screen and (max-width: 1024px) {
+                    font-size: 36px;
+                }
             }
             .text {
                 margin: 25px 0;
                 font-size: 28px;
+                @media screen and (max-width: 1024px) {
+                    font-size: 22px;
+                    margin: 25px auto 50px;
+                    max-width: 480px;
+                }
+            }
+        }
+        .img {
+            .img-wrapper {
+                max-width: 712px;
+                margin: 0 auto;
             }
         }
     }
@@ -28,6 +53,10 @@
         padding: 100px 0;
         font-size: 28px;
         line-height: 1.5;
+        @media screen and (max-width: 1024px) {
+            font-size: 20px;
+            padding: 20px 0 30px;
+        }
     }
     .abs-doodle-1 {
         position: relative;
@@ -44,12 +73,26 @@
     }
     .footer-container {
         padding-bottom: 25px;
+        @media screen and (max-width: 1024px) {
+            padding-bottom: 15px;
+        }
         .social-container {
             display: grid;
             grid-column-gap: 20px;
             grid-auto-flow: column;
             grid-auto-columns: max-content;
             direction: rtl;
+            @media screen and (max-width: 1024px) {
+                max-width: 190px;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto;
+            }
+            a {
+                @media screen and (max-width: 1024px) {
+                    max-width: 40px;
+                }
+            }
         }
     }
 }

@@ -56,6 +56,7 @@ export default class Contact extends Component {
                     <title></title>
                     <meta name="description" content="" />
                     <link rel="icon" href="/favicon.ico" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
                 </Head>
                 <main>
