@@ -83,7 +83,8 @@
                 .nav-container {
                     display: block;
                     position: relative;
-                    height: 60px;
+                    height: 70px;
+                    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
                     .logo-responsive {
                         position: absolute;
                         top: 4px;
@@ -120,7 +121,7 @@
                         height: 26px;
                         width: 32px;
                         position: absolute;
-                        top: 17px;
+                        top: 23px;
                         right: 20px;
                         z-index: 2;
                         display: flex;
