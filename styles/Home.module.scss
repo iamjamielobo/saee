@@ -6,6 +6,9 @@ body {
         font-family: $ff;
         background-color: $bgColor;
         .hero-container {
+            @media screen and (max-width: 768px) {
+                margin-top: 50px;
+            }
             .hero-grid {
                 display: grid;
                 grid-template-columns: repeat(2, 47%);
@@ -15,6 +18,9 @@ body {
                 //     grid-template-columns: 40% 55%;
                 //     grid-column-gap: 5%;
                 // }
+                @media screen and (max-width: 768px) {
+                    grid-template-columns: 1fr;
+                }
                 .hero-icon-container {
                     display: grid;
                     // grid-template-columns: repeat(2, 48%);
@@ -39,6 +45,9 @@ body {
         }
         .right-place {
             padding: 100px 0 30px;
+            @media screen and (max-width: 768px) {
+                padding: 100px 0 60px;
+            }
             &--container {
                 grid-template-columns: 30% 55%;
                 grid-column-gap: 15%;
@@ -47,14 +56,24 @@ body {
                 font-size: 28px;
                 margin-top: 20px;
                 z-index: 10;
+                @media screen and (max-width: 768px) {
+                    grid-template-columns: 1fr;
+                    font-size: 22px;
+                }
             }
             &--right {
                 z-index: 10;
+                @media screen and (max-width: 768px) {
+                    margin-top: 50px;
+                }
             }
         }
         .our-expertise {
             background-color: #EBEBEB;
             padding: 212px 0 0;
+            @media screen and (max-width: 768px) {
+                padding: 100px 0 50px;
+            }
             .expertise-container {
                 max-width: 800px;
                 margin-right: auto;
@@ -63,6 +82,9 @@ body {
                 padding-bottom: 32px;
                 color: #1E1818;
                 background-color: #EBEBEB;
+                @media screen and (max-width: 768px) {
+                    font-size: 22px;
+                }
                 .expertise-text {
                     margin-bottom: 25px;
                 }
@@ -80,6 +102,22 @@ body {
                     grid-auto-columns: max-content;
                     align-self: end;
                     flex: 1;
+                    @media screen and (max-width: 1024px) {
+                        max-width: 190px;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 0 auto;
+                    }
+                    a {
+                        @media screen and (max-width: 1024px) {
+                            max-width: 40px;
+                        }
+                    }
+                }
+                .social-doodle {
+                    @media screen and (max-width: 400px) {
+                        display: none;
+                    }
                 }
             }
         }

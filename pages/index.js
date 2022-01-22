@@ -82,7 +82,7 @@ export default function Home() {
 								<a href="https://instagram.com/saee_joshii?utm_medium=copy_link" target='_blank'><Image src="/insta.png" width='65' height='65' /></a>
 								<a href="https://www.linkedin.com/in/saee-joshi-89a841aa" target='_blank'><Image src="/linkedin.png" width='65' height='65' /></a>
 							</div>
-							<div>
+							<div className={styles['social-doodle'] }>
 								<Image src="/home_girl.png" width='320' height='260' />
 							</div>
 						</div>
