@@ -1,8 +1,6 @@
 import React, { Component, createRef } from 'react';
 import Head from 'next/head'
-import Link from 'next/link'
-import Image from 'next/image'
-import Header from './components/header'
+import Header from '../components/header'
 import styles from '../styles/Contact.module.scss'
 import global from '/styles/global.module.scss'
 import emailjs from '@emailjs/browser';
@@ -65,7 +63,7 @@ export default class Contact extends Component {
                         <div className={`${global['wrapper']}`}>
                             <div className={styles['contact-header-grid']}>
                                 <div className={styles['left']}>
-                                    <div className={styles['hero-doodle']}><Image src="/home_hero_doodle.png" layout='fill' objectFit='contain' /></div>
+                                    <div className={styles['hero-doodle']}><img src="/home_hero_doodle.png" /></div>
                                     <p className={styles['contact-header-title']}>Contact Us</p>
                                     <div>
                                         <p className={styles['contact-header-sub-title']}>Address:</p>
@@ -81,7 +79,7 @@ export default class Contact extends Component {
                                     </div>
                                 </div>
                                 <div className={styles['right']}>
-                                    <Image src="/contact/contactus.png" width="100%" height="100%" layout="responsive" objectFit="contain" />
+                                    <img src="/contact/contactus.png" width="100%" height="100%" />
                                 </div>
                             </div>
                         </div>
@@ -113,9 +111,9 @@ export default class Contact extends Component {
                                 <div className={styles['footer-container']}>
                                     <div className={`${global['wrapper']}`}>
                                         <div className={styles['social-container'] }>
-                                            <a href="https://www.facebook.com/saeekjoshi" target='_blank'><Image src="/fb.png" width='65' height='65' /></a>
-                                            <a href="https://www.linkedin.com/in/saee-joshi-89a841aa" target='_blank'><Image src="/linkedin.png" width='65' height='65' /></a>
-                                            <a href="https://instagram.com/saee_joshii?utm_medium=copy_link" target='_blank'><Image src="/insta.png" width='65' height='65' /></a>
+                                            <a href="https://www.facebook.com/saeekjoshi" target='_blank'><img src="/fb.png" width='65' height='65' /></a>
+                                            <a href="https://www.linkedin.com/in/saee-joshi-89a841aa" target='_blank'><img src="/linkedin.png" width='65' height='65' /></a>
+                                            <a href="https://instagram.com/saee_joshii?utm_medium=copy_link" target='_blank'><img src="/insta.png" width='65' height='65' /></a>
                                         </div>
                                     </div>
                                 </div>

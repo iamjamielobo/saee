@@ -18,6 +18,9 @@ body {
                 //     grid-template-columns: 40% 55%;
                 //     grid-column-gap: 5%;
                 // }
+                img {
+                    width: 100%;
+                }
                 @media screen and (max-width: 768px) {
                     grid-template-columns: 1fr;
                 }
@@ -67,6 +70,11 @@ body {
                     margin-top: 50px;
                 }
             }
+            &--left {
+                img {
+                    width: 100%;
+                }
+            }
         }
         .our-expertise {
             background-color: #EBEBEB;
@@ -102,6 +110,9 @@ body {
                     grid-auto-columns: max-content;
                     align-self: end;
                     flex: 1;
+                    img {
+                        width: 100%;
+                    }
                     @media screen and (max-width: 1024px) {
                         max-width: 190px;
                         align-items: center;

@@ -33,6 +33,9 @@
                 opacity: 0.2;
                 width: 100%;
                 height: 100%;
+                img {
+                    width: 100%;
+                }
             }
         }
         .contact-header-title {
@@ -140,6 +143,9 @@
             grid-column-gap: 20px;
             grid-auto-flow: column;
             grid-auto-columns: max-content;
+            img {
+                width: 100%;
+            }
             @media screen and (max-width: 1024px) {
                 max-width: 190px;
                 align-items: center;

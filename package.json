@@ -1,11 +1,13 @@
 {
   "name": "saee",
   "private": true,
+  "homepage": "http://www.millennialaces.com",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "@emailjs/browser": "^3.4.0",

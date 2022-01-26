@@ -3,6 +3,9 @@
 .header-container {
     font-family: $ff;
     z-index: 100;
+    img {
+        width: 100%;
+    }
     .desktop-nav {
         display: none;
         @media screen and (min-width: 1025px) {
@@ -16,8 +19,10 @@
         align-items: center;
         .logo-container {
             width: 378px;
-            height: 102px;
             position: relative;
+            img {
+                width: 90%;
+            }
             @media screen and (max-width: 1200px) {
                 width: 265px;
                 height: 71px;

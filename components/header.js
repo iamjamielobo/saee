@@ -1,4 +1,4 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 import Link from 'next/link'
 
 import { useRouter } from 'next/router'
@@ -16,7 +16,7 @@ export default function Header() {
 			<div className={`${global['wrapper']} ${global.dfc} ${ global['z1'] } ${ styles['desktop-nav'] }`}>
 				<div className={styles['header-wrapper']}>
 					<div className={ styles['logo-container'] }>
-						<Link href='/'><a><Image src="/logo.png"  layout='fill' objectFit='contain' /></a></Link>
+						<Link href='/'><a><img src="/logo.png" alt='logo' /></a></Link>
 					</div>
 					<div className={`${ styles['nav-list'] } ${ global['f1'] }`}>
 						<ul>
@@ -32,7 +32,7 @@ export default function Header() {
 				<div className={`${ styles['mob-nav-wrapper'] }`}>
 					<div className={`${ styles['navbar'] }`}>
 						<div className={`${ styles['container'] } ${ styles['nav-container'] }`}>
-							<span className={ styles['logo-responsive'] }><Link href='/'><a><Image src="/logo.png"  layout='fill' objectFit='contain' /></a></Link></span>
+							<span className={ styles['logo-responsive'] }><Link href='/'><a><img src="/logo.png" alt='' /></a></Link></span>
 							<input className={`${ styles['checkbox'] }`} type="checkbox" name="" id="" />
 							<div className={`${ styles['hamburger-lines'] }`}>
 							<span className={`${ styles['line'] } ${ styles['line1'] }`}></span>
@@ -40,7 +40,7 @@ export default function Header() {
 							<span className={`${ styles['line'] } ${ styles['line3'] }`}></span>
 						</div>
 						<div className={`${ styles['menu-items'] }`}>
-							<span className={ styles['logo-responsive-menu'] }><Link href='/'><a><Image src="/logo.png"  layout='fill' objectFit='contain' /></a></Link></span>
+							<span className={ styles['logo-responsive-menu'] }><Link href='/'><a><img src="/logo.png" alt='' /></a></Link></span>
 							<ul>
 								<li className={ asPath === '/' ? styles['_active'] : '' }><Link href='/'><span >Home</span></Link></li>
 								<li className={ asPath === '/about-us' ? styles['_active'] : '' }><Link href='/about-us'><span >About Us</span></Link></li>

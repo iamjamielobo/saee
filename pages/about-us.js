@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import Image from 'next/image'
-import Header from './components/header'
+import Header from '../components/header'
 import styles from '../styles/About.module.scss'
 import global from '/styles/global.module.scss'
 
@@ -21,7 +19,7 @@ export default function About() {
                     <div className={styles['about-container'] }>
                         <div className={global['wrapper']}>
                             <div className={styles['abs-doodle-1']}>
-                                <div><Image src="/home_hero_doodle.png" width='1102' height='956' objectFit='contain' /></div>
+                                <div><img src="/home_hero_doodle.png" /></div>
                             </div>
                             <div className={styles['about-grid']}>
                                 <div className={styles['title-container']}>
@@ -37,7 +35,7 @@ export default function About() {
                                 </div>
                                 <div className={styles['img']}>
                                     <div className={styles['img-wrapper']}>
-                                        <Image src="/about.png" width="100%" height="100%" layout="responsive" objectFit="contain" />
+                                        <img src="/about.png" />
                                     </div>
                                 </div>
                             </div>
@@ -55,9 +53,9 @@ export default function About() {
                         <div className={styles['footer-container']}>
                             <div className={`${global['wrapper']}`}>
                                 <div className={styles['social-container'] }>
-                                    <a href="https://instagram.com/saee_joshii?utm_medium=copy_link" target='_blank'><Image src="/insta.png" width='65' height='65' /></a>
-                                    <a href="https://www.linkedin.com/in/saee-joshi-89a841aa" target='_blank'><Image src="/linkedin.png" width='65' height='65' /></a>
-                                    <a href="https://www.facebook.com/saeekjoshi" target='_blank'><Image src="/fb.png" width='65' height='65' /></a>
+                                    <a href="https://instagram.com/saee_joshii?utm_medium=copy_link" target='_blank'><img src="/insta.png" /></a>
+                                    <a href="https://www.linkedin.com/in/saee-joshi-89a841aa" target='_blank'><img src="/linkedin.png" /></a>
+                                    <a href="https://www.facebook.com/saeekjoshi" target='_blank'><img src="/fb.png" /></a>
                                 </div>
                             </div>
                         </div>
