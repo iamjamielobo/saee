@@ -44,7 +44,7 @@ export default class Contact extends Component {
             });
     }
 
-	render() {
+    render() {
 
         const { name, email, phone, company, request } = this.state
 
@@ -59,7 +59,7 @@ export default class Contact extends Component {
                 </Head>
                 <main>
                     <Header />
-                    <div className={styles['contact-container'] }>
+                    <div className={styles['contact-container']}>
                         <div className={`${global['wrapper']}`}>
                             <div className={styles['contact-header-grid']}>
                                 <div className={styles['left']}>
@@ -67,7 +67,7 @@ export default class Contact extends Component {
                                     <p className={styles['contact-header-title']}>Contact Us</p>
                                     <div>
                                         <p className={styles['contact-header-sub-title']}>Address:</p>
-                                        <p className={styles['contact-header-text']}>Vile Parle, Mumbai, India - 400057<br />Abu Dhabi, UAE</p>
+                                        <p className={styles['contact-header-text']}>Vile Parle, Mumbai, India - 400057</p>
                                     </div>
                                     <div>
                                         <p className={styles['contact-header-sub-title']}>Website:</p>
@@ -75,7 +75,7 @@ export default class Contact extends Component {
                                     </div>
                                     <div className={styles['last-child']}>
                                         <p className={styles['contact-header-sub-title']}>Mail us at :</p>
-                                        <p className={styles['contact-header-text']}>info@millennialaces.com<br />saeejoshi@icloud.com </p>
+                                        <p className={styles['contact-header-text']}>saeejoshi@millennialaces.com<br />saeejoshi@icloud.com </p>
                                     </div>
                                 </div>
                                 <div className={styles['right']}>
@@ -83,34 +83,34 @@ export default class Contact extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className={styles['contact-form-section'] }>
+                        <div className={styles['contact-form-section']}>
                             <div className={`${styles['wrapper']} ${global['wrapper']}`}>
-                                <div className={styles['form-title'] }>Reach Out to Us</div>
-                                <form ref={this.form} onSubmit={ this.submitValues } className={styles['contact-form-wrapper'] }>
-                                    <div className={styles['contact-form-block'] }>
-                                        <input name="input_name"  onChange={ e => this.changeInputState('name', e.currentTarget.value) } type={'text'} placeholder='NAME' value={ name } />
+                                <div className={styles['form-title']}>Reach Out to Us</div>
+                                <form ref={this.form} onSubmit={this.submitValues} className={styles['contact-form-wrapper']}>
+                                    <div className={styles['contact-form-block']}>
+                                        <input name="input_name" onChange={e => this.changeInputState('name', e.currentTarget.value)} type={'text'} placeholder='NAME' value={name} />
                                     </div>
-                                    <div className={styles['contact-form-block'] }>
-                                        <input name="input_email" onChange={ e => this.changeInputState('email', e.currentTarget.value) } type={'text'} placeholder='EMAIL' value={ email } />
+                                    <div className={styles['contact-form-block']}>
+                                        <input name="input_email" onChange={e => this.changeInputState('email', e.currentTarget.value)} type={'text'} placeholder='EMAIL' value={email} />
                                     </div>
-                                    <div className={styles['contact-form-block'] }>
-                                        <input name="input_phone" onChange={ e => this.changeInputState('phone', e.currentTarget.value) } type={'text'} placeholder='PHONE' value={ phone } />
+                                    <div className={styles['contact-form-block']}>
+                                        <input name="input_phone" onChange={e => this.changeInputState('phone', e.currentTarget.value)} type={'text'} placeholder='PHONE' value={phone} />
                                     </div>
-                                    <div className={styles['contact-form-block'] }>
-                                        <input name='input_company' onChange={ e => this.changeInputState('company', e.currentTarget.value) } type={'text'} placeholder='COMPANY' value={ company } />
+                                    <div className={styles['contact-form-block']}>
+                                        <input name='input_company' onChange={e => this.changeInputState('company', e.currentTarget.value)} type={'text'} placeholder='COMPANY' value={company} />
                                     </div>
-                                    <div className={styles['contact-form-block'] }>
-                                        <textarea name="input_request" onChange={e => this.changeInputState('request', e.currentTarget.value) } rows="4" value={ request } placeholder='ENTER YOUR REQUEST'  />
+                                    <div className={styles['contact-form-block']}>
+                                        <textarea name="input_request" onChange={e => this.changeInputState('request', e.currentTarget.value)} rows="4" value={request} placeholder='ENTER YOUR REQUEST' />
                                     </div>
                                     <div className={`${styles['contact-form-block']} ${styles['dfcc']}`}>
-                                        <input type="submit" value="Submit" className={styles['contact-form-submit'] } />
+                                        <input type="submit" value="Submit" className={styles['contact-form-submit']} />
                                     </div>
                                 </form>
                             </div>
                             <footer>
                                 <div className={styles['footer-container']}>
                                     <div className={`${global['wrapper']}`}>
-                                        <div className={styles['social-container'] }>
+                                        <div className={styles['social-container']}>
                                             <a href="https://www.facebook.com/saeekjoshi" target='_blank'><img src="/fb.png" width='65' height='65' /></a>
                                             <a href="https://www.linkedin.com/in/saee-joshi-89a841aa" target='_blank'><img src="/linkedin.png" width='65' height='65' /></a>
                                             <a href="https://instagram.com/saee_joshii?utm_medium=copy_link" target='_blank'><img src="/insta.png" width='65' height='65' /></a>
