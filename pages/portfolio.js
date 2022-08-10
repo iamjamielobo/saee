@@ -60,21 +60,25 @@ export default function Portfolio() {
                             Page {pageNumber} of {numPages}
                             <button type="button" onClick={nextPage}>Next</button>
                         </p>
-                        <Document
-                            file="/portfolio.pdf"
-                            onLoadSuccess={onDocumentLoadSuccess}
-                        >
-                            <Page pageNumber={pageNumber} />
-                        </Document>
+                        <div className={`${global['wrapper']}`}>
+                            <Document
+                                file="/portfolio.pdf"
+                                onLoadSuccess={onDocumentLoadSuccess}
+                            >
+                                <Page pageNumber={pageNumber} />
+                            </Document>
+                        </div>
                     </div>
-                    <div className={styles['about-text-container']}>
-                        <p>
-                            With Millennial Aces, I aim to bring my passion for content creation to life. We help you ace your content game with the right punches, and hard hits delivered through every copy. We make sure you connect with the right audience through words that redefine your brand.
-                        </p>
-                        <p>
-                            I would love to discuss how we can work together and collaborate to create better content that brings the right value to your business.
-                            <a href="/contact-us">Contact us</a> for any requirements that you may have.
-                        </p>
+                    <div className={`${global['wrapper']}`}>
+                        <div className={styles['about-text-container']}>
+                            <p>
+                                With Millennial Aces, I aim to bring my passion for content creation to life. We help you ace your content game with the right punches, and hard hits delivered through every copy. We make sure you connect with the right audience through words that redefine your brand.
+                            </p>
+                            <p>
+                                I would love to discuss how we can work together and collaborate to create better content that brings the right value to your business.
+                                <a href="/contact-us">Contact us</a> for any requirements that you may have.
+                            </p>
+                        </div>
                     </div>
                     <footer>
                         <div className={styles['footer-container']}>
