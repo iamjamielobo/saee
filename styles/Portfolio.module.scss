@@ -69,6 +69,13 @@
         text-align: center;
     }
 
+    .canvas-container {
+        canvas {
+            width: 100%!important;
+            height: 100%!important;
+        }
+    }
+
     .about-text-container {
         font-size: 28px;
         line-height: 1.5;

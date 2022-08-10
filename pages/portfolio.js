@@ -64,6 +64,7 @@ export default function Portfolio() {
                             <Document
                                 file="/portfolio.pdf"
                                 onLoadSuccess={onDocumentLoadSuccess}
+                                className={`${styles['canvas-container']}`}
                             >
                                 <Page pageNumber={pageNumber} />
                             </Document>
