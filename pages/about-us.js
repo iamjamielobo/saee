@@ -49,6 +49,21 @@ export default function About() {
                             <p>We are dedicated to help provide solutions with optimum value to all your business problems. We believe that for truly real, impressive, and outstanding work, there needs to be an equally real, passionate, and driven workforce to be reckoned with. Which is why, we treat your business as our own, your brands as our own and take care of it ensuring it gets the best returns in every way. We confront our dynamic world with vigour, we respect the shades that make each of us unique, and we are connected by an incessant drive toward excellence.</p>
                         </div>
                     </div>
+                    <div className={ styles['about-values'] }>
+                        <div className={global['wrapper']}>
+                            <div className={`${ styles['about-values-title']} ${ global.bold }`}>Our Vision & Mission</div>
+                            <div className={ styles['about-values-content'] }>
+                                <p>We believe in creating content that adds more than just value to our clients. We aim to fulfill every client's dream, vision, mission and purpose through our marketing services and work with a purpose to evoke emotions that inspire and transform both our clients and their customers in the long run.</p>
+                                <p>We believe in chasing excellence, not success. As success will follow.</p>
+                                <p>How do we align our purpose with our services?</p>
+                                <p>We implement our vision by instilling the three C's principle.</p>
+                                <p>We are defined by:</p>
+                                <p><span className={ global.bold }>Creativity</span>: We are creative souls that aim to inspire and find deep meaning in serving to our clients.</p>
+                                <p><span className={ global.bold }>Curiosity</span>: We are always learning. Hungry for knowledge and growth in every way. We aim to find solutions to every problem and have a childlike curiosity to explore new ways and create content that really resonates, connects and makes a difference to the audience.</p>
+                                <p><span className={ global.bold }>Consistency</span>: We don’t rely on motivation. We are intrinsically motivated and purpose-driven in every project we take up. We persist in the face of challenges, and we consistently deliver results through the revisions. No great creations ever happened without consistent efforts.</p>
+                            </div>
+                        </div>
+                    </div>
                     <footer>
                         <div className={styles['footer-container']}>
                             <div className={`${global['wrapper']}`}>
