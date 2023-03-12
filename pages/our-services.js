@@ -78,7 +78,11 @@ export default function Services() {
                                         } )
                                     }
                                     <div className={ styles['testimonials--block'] }>
-                                        <div className={ styles['testimonials--text'] }>"I am Anirudh, the founder and CEO of Qualia Life - an upcoming health tech platform. I had consulted with Millennial aces for co-creating blogs in the mental health space. Three things that stood out with Millennial aces were their <br />(1).cost,<br />(2).openess to change and<br />(3). commitment towards to project completion on time.<br /> Blogs go through a number iterations and Millennial aces was quick to pivot and make these changes which was essential for on time project completion. I highly recommend Millennial aces for any blog related projects."</div>
+                                        <div className={ styles['testimonials--text'] }>"I am Anirudh, the founder and CEO of Qualia Life, an upcoming health tech platform. I had consulted with Millennial Aces about co-creating blogs in the mental health space. Three things that stood out with Millennial aces were their<br />
+                                        (1).cost,<br />
+                                        (2).openess to change and<br />
+                                        (3). commitment to project completion on time.<br />
+                                        Blogs go through a number of iterations, and Millennial Aces was quick to pivot and make these changes, which were essential for on-time project completion. I highly recommend Millennial Aces for any blog-related projects."</div>
                                         <div className={`${ styles['testimonials--person'] } ${ global.bold }`}>Anirudh Jegenathan, Founder and CEO of Qualia Life</div>
                                     </div>
                                 </div>
