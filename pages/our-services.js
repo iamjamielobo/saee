@@ -3,6 +3,26 @@ import Header from '../components/header'
 import styles from '../styles/Services.module.scss'
 import global from '/styles/global.module.scss'
 
+const testimonials = [{
+    text: "Saee was really pleasant to work with, and she responded really fast.",
+    person: 'Diabelle Cosmetics, India'
+}, {
+    text: 'Saee worked with us on a range of projects as a brand strategist and copywriter. She has a great eye for detail, creative vision, and a zealous spirit brimming with unique ideas. She’s not afraid to try new approaches that help brands stand out! She is also a wonderful content writer and has written some great blogs for our client’s website. It’s been a pleasure working with her, and we hope to collaborate on more projects with her in the near future!',
+    person: 'The Content Lab, India'
+}, {
+    text: 'Saee did an excellent job of writing five articles for me. She was very cooperative and responsive. Really a pleasant person to work with. I am really happy with her work. I wish her the very best. I will hire her in the future for sure.',
+    person: 'Balance Coffee, UK'
+}, {
+    text: 'Another excellent article. Well written and researched. I look forward to a long-lasting professional relationship with this freelancer.',
+    person: 'Digital D, UK'
+}, {
+    text: 'Saee is a top notch copywriter. She understood our requirements and delivered way beyond our expectations. I\'ll be using her services again.',
+    person: 'Digiarc Solutions, India'
+}, {
+    text: 'I am Anirudh, the founder and CEO of Qualia Life - an upcoming health tech platform. I had consulted with Millennial aces for co-creating blogs in the mental health space. Three things that stood out with Millennial aces were their (1).cost, (2).openess to change and (3). commitment towards to project completion on time. Blogs go through a number iterations and Millennial aces was quick to pivot and make these changes which was essential for on time project completion. I highly recommend Millennial aces for any blog related projects.',
+    person: 'Anirudh Jegenathan, Founder and CEO of Qualia Life'
+}]
+
 export default function Services() {
 	return (
 		<div className={styles.container}>
@@ -45,6 +65,23 @@ export default function Services() {
                         </div>
                         <div className={styles['abs-doodle-1']}>
                             <div><img src="/home_hero_doodle.png" width="100%" height="100%" /></div>
+                        </div>
+                        <div className={styles['testimonials']}>
+                            <div className={global['wrapper']}>
+                                <div className={ styles['testimonials--title'] }>Client Testimonials</div>
+                                <div className={ styles['testimonials--content'] }>
+                                    {
+                                        testimonials.map( testi => {
+                                            return (
+                                                <div className={ styles['testimonials--block'] }>
+                                                    <div className={ styles['testimonials--text'] }>"{ testi.text }"</div>
+                                                    <div className={`${ styles['testimonials--person'] } ${ global.bold }`}>- { testi.person }</div>
+                                                </div>
+                                            )
+                                        } )
+                                    }
+                                </div>
+                            </div>
                         </div>
                         <footer>
                             <div className={styles['footer-container']}>
