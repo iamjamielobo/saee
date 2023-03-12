@@ -43,18 +43,27 @@
                     font-size: 15px;
                     display: flex;
                     align-items: center;
+                    position: relative;
                     @media screen and (max-width: 1200px) {
                         margin-right: 10px;
                     }
-                    span {
+                    .nav-link-span {
                         cursor: pointer;
                         padding: 9px 20px 7px;
+                    }
+                    .nav-dd {
+                        position: absolute;
+                        top: 80px;
+                        left: -30px;
+                        display: block;
+                        width: 250px;
+                        background-color: $white;
                     }
                     &:last-child {
                         margin-right: 0;
                     }
                     &:hover {
-                        span {
+                        .nav-link-span {
                             padding: 9px 20px 7px;
                             background: $black;
                             color: $white;
@@ -62,7 +71,7 @@
                         }
                     }
                     &._active {
-                        span {
+                        .nav-link-span {
                             padding: 9px 20px 7px;
                             background: $black;
                             color: $white;
