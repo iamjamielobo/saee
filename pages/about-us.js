@@ -49,7 +49,7 @@ export default function About() {
                             <p>We are dedicated to help provide solutions with optimum value to all your business problems. We believe that for truly real, impressive, and outstanding work, there needs to be an equally real, passionate, and driven workforce to be reckoned with. Which is why, we treat your business as our own, your brands as our own and take care of it ensuring it gets the best returns in every way. We confront our dynamic world with vigour, we respect the shades that make each of us unique, and we are connected by an incessant drive toward excellence.</p>
                         </div>
                     </div>
-                    <div className={ styles['about-values'] }>
+                    <div className={ styles['about-values'] } id='vision'>
                         <div className={global['wrapper']}>
                             <div className={`${ styles['about-values-title']} ${ global.bold }`}>Our Vision & Mission</div>
                             <div className={ styles['about-values-content'] }>

@@ -18,9 +18,6 @@ const testimonials = [{
 }, {
     text: 'Saee is a top notch copywriter. She understood our requirements and delivered way beyond our expectations. I\'ll be using her services again.',
     person: 'Digiarc Solutions, India'
-}, {
-    text: 'I am Anirudh, the founder and CEO of Qualia Life - an upcoming health tech platform. I had consulted with Millennial aces for co-creating blogs in the mental health space. Three things that stood out with Millennial aces were their (1).cost, (2).openess to change and (3). commitment towards to project completion on time. Blogs go through a number iterations and Millennial aces was quick to pivot and make these changes which was essential for on time project completion. I highly recommend Millennial aces for any blog related projects.',
-    person: 'Anirudh Jegenathan, Founder and CEO of Qualia Life'
 }]
 
 export default function Services() {
@@ -66,7 +63,7 @@ export default function Services() {
                         <div className={styles['abs-doodle-1']}>
                             <div><img src="/home_hero_doodle.png" width="100%" height="100%" /></div>
                         </div>
-                        <div className={styles['testimonials']}>
+                        <div className={styles['testimonials']} id={'testimonials'}>
                             <div className={global['wrapper']}>
                                 <div className={ styles['testimonials--title'] }>Client Testimonials</div>
                                 <div className={ styles['testimonials--content'] }>
@@ -75,11 +72,15 @@ export default function Services() {
                                             return (
                                                 <div className={ styles['testimonials--block'] }>
                                                     <div className={ styles['testimonials--text'] }>"{ testi.text }"</div>
-                                                    <div className={`${ styles['testimonials--person'] } ${ global.bold }`}>- { testi.person }</div>
+                                                    <div className={`${ styles['testimonials--person'] } ${ global.bold }`}>{ testi.person }</div>
                                                 </div>
                                             )
                                         } )
                                     }
+                                    <div className={ styles['testimonials--block'] }>
+                                        <div className={ styles['testimonials--text'] }>"I am Anirudh, the founder and CEO of Qualia Life - an upcoming health tech platform. I had consulted with Millennial aces for co-creating blogs in the mental health space. Three things that stood out with Millennial aces were their <br />(1).cost,<br />(2).openess to change and<br />(3). commitment towards to project completion on time.<br /> Blogs go through a number iterations and Millennial aces was quick to pivot and make these changes which was essential for on time project completion. I highly recommend Millennial aces for any blog related projects."</div>
+                                        <div className={`${ styles['testimonials--person'] } ${ global.bold }`}>Anirudh Jegenathan, Founder and CEO of Qualia Life</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

@@ -22,6 +22,7 @@ export default function Header() {
 						<ul>
 							<li className={ asPath === '/' ? styles['_active'] : '' }><Link href='/'><span >Home</span></Link></li>
 							<li className={ asPath === '/about-us' ? styles['_active'] : '' }><Link href='/about-us'><span >About Us</span></Link></li>
+							<li className={ 'sub-nav' }><Link href='/about-us#vision'><span >Our Vision & Mission</span></Link></li>
 							<li className={ asPath === '/portfolio' ? styles['_active'] : '' }><Link href='/portfolio'><span >Portfolio</span></Link></li>
 							<li className={ asPath === '/our-services' ? styles['_active'] : '' }><Link href='/our-services'><span >Our Services</span></Link></li>
 							<li className={ asPath === '/contact-us' ? styles['_active'] : '' }><Link href='/contact-us'><span >Contact Us</span></Link></li>
@@ -45,7 +46,9 @@ export default function Header() {
 							<ul>
 								<li className={ asPath === '/' ? styles['_active'] : '' }><Link href='/'><span >Home</span></Link></li>
 								<li className={ asPath === '/about-us' ? styles['_active'] : '' }><Link href='/about-us'><span >About Us</span></Link></li>
+								<li className={ styles['sub-nav'] }><Link href='/about-us#vision'><span>- Our Vision & Mission</span></Link></li>
 								<li className={ asPath === '/our-services' ? styles['_active'] : '' }><Link href='/our-services'><span >Our Services</span></Link></li>
+								<li className={ styles['sub-nav'] }><Link href='/our-services#testimonials'><span>- Client Testimonials</span></Link></li>
 								<li className={ asPath === '/portfolio' ? styles['_active'] : '' }><Link href='/portfolio'><span >Portfolio</span></Link></li>
 								<li className={ asPath === '/contact-us' ? styles['_active'] : '' }><Link href='/contact-us'><span >Contact Us</span></Link></li>
 							</ul>
