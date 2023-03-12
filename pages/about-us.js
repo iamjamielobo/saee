@@ -58,9 +58,9 @@ export default function About() {
                                 <p>How do we align our purpose with our services?</p>
                                 <p>We implement our vision by instilling the three C's principle.</p>
                                 <p>We are defined by:</p>
-                                <p><span className={ global.bold }>Creativity</span>: We are creative souls that aim to inspire and find deep meaning in serving to our clients.</p>
-                                <p><span className={ global.bold }>Curiosity</span>: We are always learning. Hungry for knowledge and growth in every way. We aim to find solutions to every problem and have a childlike curiosity to explore new ways and create content that really resonates, connects and makes a difference to the audience.</p>
-                                <p><span className={ global.bold }>Consistency</span>: We don’t rely on motivation. We are intrinsically motivated and purpose-driven in every project we take up. We persist in the face of challenges, and we consistently deliver results through the revisions. No great creations ever happened without consistent efforts.</p>
+                                <p><span className={ global.bold }>- Creativity</span>: We are creative souls that aim to inspire and find deep meaning in serving to our clients.</p>
+                                <p><span className={ global.bold }>- Curiosity</span>: We are always learning. Hungry for knowledge and growth in every way. We aim to find solutions to every problem and have a childlike curiosity to explore new ways and create content that really resonates, connects and makes a difference to the audience.</p>
+                                <p><span className={ global.bold }>- Consistency</span>: We don’t rely on motivation. We are intrinsically motivated and purpose-driven in every project we take up. We persist in the face of challenges, and we consistently deliver results through the revisions. No great creations ever happened without consistent efforts.</p>
                             </div>
                         </div>
                     </div>
